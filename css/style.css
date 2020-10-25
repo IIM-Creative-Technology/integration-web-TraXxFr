@@ -1,0 +1,943 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background-image: linear-gradient(130deg, #2f2359 30%, #4c3991 80%);
+    padding-bottom: 35px;
+}
+
+/* HEADER TOP */
+
+.header_top {
+    display: flex;
+    padding: 40px 5%;
+    justify-content: space-between;
+}
+
+.header_top a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    background-color: #bf3676;
+    border-radius: 50px;
+    padding: 11px 26px 11px 26px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+}
+
+/* HEADER BOT */
+
+.header_bot {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header_bot_left {
+    padding: 254px 177px;
+    color: white;
+    width: 26%;
+}
+
+.header_bot_left h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    margin-bottom: 34px;
+}
+
+.header_bot_left p {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 44px;
+}
+
+.header_bot_left .btn {
+    font-size: 20px;
+}
+
+.header_bot img {
+   position: absolute;
+    right: 0;
+    top: 158px;
+
+    width: 798px;
+    height: 600px;
+}
+
+.down_arrow {
+    width: 5%;
+    margin: auto;
+}
+
+.down_arrow img{
+    width: 36px;
+    height: 45px;
+    object-fit: contain;
+}
+
+/* DUELS ARTICLE */
+
+.duels {
+    background: url("../img/background.png") no-repeat center;
+    background-size: cover;
+}
+
+  /* FRIENDS DUELS */
+
+.duel_friends {
+    color: #bf3676;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 65px 0 105px 0;
+}
+
+.duel_friends hr {
+    color: #bf3676;
+    border: #bf3676 solid 1px;
+    width: 248px;
+    margin: 28px auto 59px auto;
+}
+
+.duel_friends > p {
+    color: #222222;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: auto;
+    width: 45%;
+}
+
+    /* DUELS WRAP */
+
+.duel_friends_informations {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 18px auto 100px auto;
+    justify-content: center;
+    position: relative;
+}
+
+.duel_friends_informations .card {
+    margin-top: 79px;
+    display: flex;
+    width: 34%;
+}
+
+.duel_friends_informations .card_icon_frame {
+    padding: 48px 30px 0 16px;
+    width: 47px;
+    height: 57px;
+}
+
+.duel_friends_informations .card_content h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #222222;
+    text-align: left;
+}
+
+.duel_friends_informations .card_content h3 i {
+    margin-left: 12px;
+    font-size: 13px;
+    color: #bf3676;
+}
+
+.duel_friends_informations .card_content p {
+    margin-top: 11px;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #222222;
+    width: 100%;
+    text-align: left;
+}
+
+.rotate_text {
+    font-family: Poppins,sans-serif;
+    font-size: 10px;
+    color: #929292;
+    position: absolute;
+    right: -80px;
+    top: 50%;
+    transform: rotate(90deg);
+    width: 25%;
+    text-align: left;
+}
+
+    /* DUELS BUTTON */
+
+.duel_discover {
+    padding: 166px 112px 125px 112px;
+}
+
+.duel_discover .btn {
+    font-size: 24px;
+}
+
+  /* DUEL DISCOVER */
+
+.duel_discover_title_block {
+    display: inline-block;
+}
+
+.duel_discover_title_block h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 41px;
+    font-weight: bold;
+    color: #bf3676;;
+}
+
+.duel_discover_title_block hr {
+    color: #bf3676;
+    border: #bf3676 solid 1px;
+    width: 42%;
+    margin-top: 29px;
+}
+
+    /* SLIDER */
+
+.slider > div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+        /* CARDS */
+
+.hide .card_content {
+    display: none;
+}
+
+.slider .card {
+    display: flex;
+    padding: 44px 45px 35px 44px;
+    border-radius: 10px;
+    box-shadow: 1px 10px 16px 1px rgba(98, 98, 98, 0.19);
+    margin: 56px auto 76px auto;
+}
+
+.slider .card_content {
+    margin-left: 35px;
+}
+
+.slider .card_content_tags {
+    display: flex;
+}
+
+.slider .card_content_tags h4 {
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 2px 18px 2px 18px;
+    border-radius: 50px;
+    background-color: #d3c4f2;
+    color: white;
+    margin-right: 7px;
+}
+
+.slider .card_content > h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.slider .card_content > p {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+}
+
+.slider .card_content_participations {
+    display: flex;
+    position: relative;
+    margin-top: 14px;
+    margin-left: -15px;
+}
+
+.slider .card_content_participations p {
+    padding: 10px 0 10px 12px;
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #747474;
+}
+
+.slider .card_content_participations_icon_2 {
+    position: absolute;
+    left: 5%;
+}
+
+.slider_state {
+    text-align: center;
+}
+
+.slider_state i {
+    margin: 5px;
+    font-size: 20px;
+    color: #818181;
+    cursor: pointer;
+}
+
+.slider_state i.active {
+    margin: 5px;
+    font-size: 20px;
+    color: #bf3676;
+}
+
+/* PERSONAL CREATION ARTICLE */
+
+  /* PERSONNALISATION SECTION */
+
+.personnalisation {
+    background: url('../img/paris-personnalises.png') no-repeat center , linear-gradient(130deg, #392a6c 30%, #3c2d72 80%);
+    padding: 73px 184px 74px 184px;
+}
+
+.personnalisation > h1 {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 41px;
+    font-weight: bold;
+    color: white;
+}
+
+.personnalisation > hr {
+    border: white solid 1px;
+    width: 249px;
+    margin: 29px auto 111px auto;
+}
+
+.personnalisation_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+        /* LEFT BLOCK */
+
+.personnalisation_content_left, .personnalisation_content_right {
+    width: 35%;
+}
+
+.personnalisation_content_left {
+    position: relative;
+}
+
+.personnalisation_content_left > h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+}
+
+.personnalisation_content_left > h3 {
+    background-color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #2f2359;
+    padding: 2px 21px 2px 21px;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.personnalisation_content_left > p {
+    margin-top: 32px;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.personnalisation_content_left > p .condition_text {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+        /* RIGHT BLOCK */
+
+.personnalisation_content_right {
+    margin-top: 18px;
+}
+
+.personnalisation_content_right .text_block {
+    display: flex;
+    margin-top: 32px;
+}
+
+.personnalisation_content_right .text_block > h2 {
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px 30px 15px 30px;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    color: #222222;
+
+}
+
+.personnalisation_content_right .text_block > p {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin-left: 28px;
+}
+
+.personnalisation .btn_block {
+    margin-top: 160px;
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.personnalisation .btn {
+    font-family: Poppins, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+
+  /* PARAPH SECTION */
+
+.paraph {
+    display: flex;
+}
+
+.paraph_left {
+    padding: 209px 180px 209px 180px;
+    width: 32%;
+}
+
+.paraph > img {
+    width: 50%;
+    height: auto;
+}
+
+.paraph_left .paraph_left_content:first-letter {
+    float: left;
+    font-size: 75px;
+    line-height: 80%;
+    margin: 4px 0;
+    padding-right: .1em
+}
+
+.paraph_left .paraph_left_content {
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #222222;
+    position: relative;
+}
+
+.paraph_left .paraph_left_comment {
+    margin-top: 50px;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    color: #bbbbbb;
+}
+
+.paraph_left_content > img {
+    position: absolute;
+    right: 0;
+    top: -40px;
+}
+
+/* FOOTER */
+
+footer {
+    background: url("../img/background-footer.png") no-repeat center;
+    background-size: cover;
+    padding: 67px 111px 67px 111px;
+}
+
+.footers_link {
+    margin-top: 36px;
+    display: flex;
+    position: relative;
+}
+
+.footers_link a {
+    display: block;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    margin: 0 59px 36px 0;
+}
+
+.footers_link .social_icons {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+
+footer > p {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    color: white;
+    width: 50%;
+    margin: 20px auto 0 auto;
+}
+
+/* Responsive */
+
+    /* IPAD ROTATE */
+
+@media screen and (max-width: 1024px) {
+
+    /* HEADER BOT */
+
+    .header_bot_left {
+        padding: 180px 10%;
+        width: 40%;
+    }
+
+    .header_bot img {
+        width: 65vh;
+        height: auto;
+    }
+
+    /* DUELS SECTION */
+
+    .duel_friends > p {
+        width: 70%;
+    }
+
+      /* DUELS WRAP */
+
+    .duel_friends_informations .card {
+        width: 42%;
+    }
+
+    .rotate_text {
+        right: -30%;
+        top: 55%;
+        width: 65%;
+    }
+
+    /* Slider */
+
+    .slider {
+        display: block;
+    }
+
+    .slider .hide {
+        display: none;
+    }
+
+    /* PERSONNALISATION SECTION */
+
+    .personnalisation {
+        padding: 73px 5% 74px 10%;
+    }
+
+    .personnalisation_content {
+        display: block;
+    }
+
+    .personnalisation_content_left {
+        margin-bottom: 100px;
+    }
+
+    .personnalisation_content_left, .personnalisation_content_right {
+        width: 100%;
+    }
+
+    /* PARAPH SECTION */
+
+    .paraph {
+        justify-content: space-between;
+    }
+
+    .paraph_left {
+        padding: 209px 5% 209px 5%;
+        width: 40%;
+    }
+
+    .paraph > img {
+        width: 50%;
+    }
+
+    .paraph_left .paraph_left_content:first-letter {
+        font-size: 3.35em;
+    }
+
+    .paraph_left .paraph_left_content {
+        font-size: 1em;
+    }
+
+    .paraph_left .paraph_left_comment {
+        font-size: 0.7em;
+    }
+
+    /* FOOTER */
+
+    footer > p {
+        width: 80%;
+    }
+
+}
+
+  /* IPAD */
+
+@media screen and (max-width: 812px) {
+
+    /* HEADER TOP */
+
+    .header_top {
+        display: block;
+        padding: 40px 5%;
+        justify-content: space-between;
+    }
+
+    .header_top img {
+        display: block;
+        margin: 0 auto 50px auto;
+    }
+
+    .header_top_links {
+        text-align: center;
+    }
+
+    .header_top a {
+        font-size: 0.8em;
+    }
+
+    .header_bot img {
+        width: 30%;
+        height: auto;
+    }
+
+
+    /* HEADER BOT */
+
+    .header_bot_left {
+        padding: 180px 8%;
+        width: 42%;
+    }
+
+    .header_bot_left h1 {
+        font-size: 1.6em;
+    }
+
+    .header_bot_left p {
+        font-size: 1.2em;
+    }
+
+    .header_bot_left .btn {
+        font-size: 1.2em;
+    }
+
+    .header_bot img {
+        width: 40vh;
+        height: auto;
+    }
+
+    /* DUELS WRAP */
+
+    .duel_friends_informations {
+        width: 100%;
+    }
+
+    .duel_friends_informations .card {
+        width: 43%;
+    }
+
+    .rotate_text {
+        right: -43%;
+        top: 55%;
+        width: 95%;
+    }
+
+    /* DUEL DISCOVER SECTION */
+
+    .duel_discover {
+        padding: 166px 5% 125px 5%;
+    }
+
+    /* PERSONNALISATION SECTION */
+
+    .personnalisation .btn {
+        font-family: Poppins, sans-serif;
+        font-size: 1.2em;
+        font-weight: 500;
+        color: white;
+    }
+
+    /* PARAPH SECTION */
+
+    .paraph_left {
+        padding: 89px 5% 89px 5%;
+    }
+
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 414px) {
+
+    /* HEADER TOP */
+    .header_top a {
+        display: block;
+        font-size: 1em;
+    }
+
+    .header_bot {
+        display: block;
+    }
+
+
+    .header_bot img {
+        position: unset;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .header_bot_left {
+        width: 90%;
+        text-align: center;
+        padding: 50px 0 20px 0;
+        margin: auto;
+    }
+
+    .header_bot_left h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .header_bot_left p {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .header_bot_left .btn {
+        font-size: 1em;
+    }
+
+    /* DUEL SECTION */
+    .duel_friends > h2 {
+        font-size: 1em;
+    }
+
+    /* DUELS WRAP */
+    .duel_friends_informations {
+        display: block;
+        width: 90%;
+        margin: 18px auto 100px auto;
+        justify-content: center;
+        position: relative;
+    }
+
+    .duel_friends_informations .card {
+        margin-top: 79px;
+        display: block;
+        width: 100%;
+    }
+
+    .duel_friends_informations .card_icon_frame {
+        padding: 0;
+        width: 100%;
+        margin: 0 auto 50px auto;
+    }
+
+    .duel_friends_informations .card_icon_frame img {
+        width: 26%;
+    }
+
+    .duel_friends_informations .card_content h3 {
+        font-size: 0.6em;
+        text-align: center;
+    }
+
+    .duel_friends_informations .card_content h3 i {
+        font-size: 0.6em;
+    }
+
+    .duel_friends_informations .card_content p {
+        font-size: 0.4em;
+        text-align: justify;
+    }
+
+    .rotate_text {
+        display: none;
+    }
+
+    /* DUELS BUTTON */
+    .duel_friends .btn {
+        font-size: 0.5em;
+    }
+
+    /* DUEL DISCOVER SECTION */
+    .duel_discover {
+        padding: 0 2% 50px 5%;
+    }
+
+    .duel_discover_title_block h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .duel_discover_title_block hr {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    /* SLIDER */
+
+    .slider {
+        display: block;
+    }
+
+    .duel_discover_title_block {
+        margin-bottom: 25px;
+    }
+
+    .slider > div > .hide {
+        display: none;
+    }
+
+    /* CARDS */
+
+    .slider .card {
+        margin-top: 10px;
+        display: block;
+        padding: 40px 5% 40px 5%;
+    }
+
+    .slider .card_content {
+        text-align: center;
+        width: 85%;
+        margin: 20px auto 0 auto;
+    }
+
+    .slider .card_content_tags {
+        display: flex;
+    }
+
+    .slider .card_content_participations p {
+        padding: 0;
+        font-size: 0.9em;
+    }
+
+    .slider_state {
+        text-align: center;
+    }
+
+    .slider .card_icon_frame img {
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+
+    /* PERSONNALISATION SECTION */
+    .personnalisation h1 {
+        font-size: 1.8em;
+    }
+
+    .personnalisation_content_left h3 {
+        position: unset;
+        display: inline-block;
+    }
+
+    .personnalisation_content_right .text_block h2 {
+        font-size: 2em;
+    }
+
+    .personnalisation_content_right .text_block p {
+        font-size: 0.8em;
+    }
+
+    .personnalisation .btn_block {
+        margin-top: 80px;
+        margin-bottom: 34px;
+    }
+
+    .personnalisation .btn {
+        font-size: 0.7em;
+        padding: 11px 10px 11px 10px;
+    }
+
+    /* PARAPH SECTION */
+    .paraph {
+        display: block;
+    }
+
+    .paraph_left {
+        width: 80%;
+        margin: 60px auto 40px auto;
+        padding: 0;
+    }
+
+    .paraph > img {
+        width: 100%;
+        display: block;
+    }
+
+    .paraph_left .paraph_left_content:first-letter {
+        font-size: 3.3em;
+    }
+
+    .paraph_left .paraph_left_content {
+        font-size: 1em;
+    }
+
+    .paraph_left .paraph_left_comment {
+        margin-top: 30px;
+        font-size: 0.8em;
+    }
+
+    /* FOOTER */
+    footer {
+        text-align: center;
+        padding: 30px 0 30px 0;
+    }
+
+    .footers_link {
+        display: block;
+        position: relative;
+    }
+
+    .footers_link a {
+        margin: 0 0 36px 0;
+    }
+
+    .footers_link .social_icons {
+        position: unset;
+        margin-bottom: 20px;
+    }
+
+    footer hr {
+        width: 90%;
+        margin: auto;
+    }
+
+    footer > p {
+        width: 90%;
+        margin: 20px auto 0 auto;
+
+    }
+}
